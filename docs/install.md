@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 # Install
 
 - [install.sh](#installsh)
@@ -264,10 +265,10 @@ rm -rf ~/.local/share/code-server ~/.config/code-server
 
 ### install.sh
 
-If you installed with the install script, by default code-server will be in `~/usr/lib/code-server` and you can remove it with `rm -rf`. e.g.
+If you installed with the install script, by default code-server will be in `~/.local/lib/code-server-<version>` and you can remove it with `rm -rf`. e.g.
 
 ```shell
-rm -rf ~/usr/lib/code-server
+rm -rf ~/.local/lib/code-server-*
 ```
 
 ### Homebrew
